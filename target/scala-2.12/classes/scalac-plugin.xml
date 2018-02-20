@@ -1,0 +1,4 @@
+<plugin>
+    <name>logphase</name>
+    <classname>com.shin.LogPhase</classname>
+</plugin>
