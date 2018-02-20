@@ -81,12 +81,12 @@ class CompilerPluginComponent(val global: Global)
     def methodWrapper(rhs: Tree, name: TermName, params: List[ValDef]) = {
       Block(
         q"""
-           logger.debug("[ENTRY]" + ${name.decodedName.toString} + ${params.map(_.name.decodedName).mkString(",")})
+           logger.debug("[ENTRY] " + ${name.decodedName.toString} + " - " + ${params.map(x => "$" + s"${x.name.decodedName}").mkString(", ")})
           """,
         DefDef(Modifiers(), TermName("runMethod"), List(), List(), TypeTree(), rhs),
         q"val _logRun = runMethod",
         q"""
-           logger.debug("s" + "[EXIT]" + ${name.decodedName.toString} + "$$_logRun")
+           logger.debug(s + "[EXIT] " + ${name.decodedName.toString} + " - " + "$$_logRun")
           """,
         q"_logRun"
       )

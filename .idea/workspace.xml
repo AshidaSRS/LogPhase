@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da588074-d54c-485f-913a-f755dec1b9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/logphase-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/logphase.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/logphase_2.11-0.1.0-javadoc.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/logphase_2.11-0.1.0-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/logphase_2.11-0.1.0-sources.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/logphase_2.11-0.1.0-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/logphase_2.11-0.1.0.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/logphase_2.11-0.1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/logphase_2.12-0.1.0-javadoc.jar" afterPath="$PROJECT_DIR$/target/scala-2.12/logphase_2.12-0.1.0-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/logphase_2.12-0.1.0-sources.jar" afterPath="$PROJECT_DIR$/target/scala-2.12/logphase_2.12-0.1.0-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/logphase_2.12-0.1.0.jar" afterPath="$PROJECT_DIR$/target/scala-2.12/logphase_2.12-0.1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/shin/LogPhase.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/shin/LogPhase.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/ivy-0.1.0.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/ivy-0.1.0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/ivy-0.1.0.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/ivy-0.1.0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/deliverLocal/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/deliverLocal/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -44,8 +54,8 @@
       <file leaf-file-name="LogPhase.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/shin/LogPhase.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+            <state relative-caret-position="531">
+              <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
               <folding>
                 <element signature="e#1931#1960#0" expanded="true" />
               </folding>
@@ -318,12 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519064568973</updated>
       <workItem from="1519064588416" duration="4589000" />
-      <workItem from="1519080723561" duration="8108000" />
+      <workItem from="1519080723561" duration="9366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12697000" />
+    <option name="totallyTimeSpent" value="13955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -499,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/shin/LogPhase.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        <state relative-caret-position="531">
+          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
           <folding>
             <element signature="e#1931#1960#0" expanded="true" />
           </folding>
