@@ -1,11 +1,19 @@
-[0m[[0minfo[0m] [0mMain Scala API documentation to /Users/ashida/Git/LogPhase/target/scala-2.12/api...[0m
-[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.12.0[0m
+[0m[[0minfo[0m] [0mMain Scala API documentation to /home/ashida/git/LogPhase/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.11.11[0m
 [0m[[0mdebug[0m] [0mCalling Scaladoc with arguments:[0m
 [0m[[0mdebug[0m] [0m	-d[0m
-[0m[[0mdebug[0m] [0m	/Users/ashida/Git/LogPhase/target/scala-2.12/api[0m
+[0m[[0mdebug[0m] [0m	/home/ashida/git/LogPhase/target/scala-2.11/api[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/classes:/Users/ashida/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.0.jar[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ashida/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.11.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/ashida/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.4.jar:/Users/ashida/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar:/Users/ashida/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/ashida/Git/LogPhase/src/main/scala/com/shin/LogPhase.scala[0m
-[0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m
+[0m[[0mdebug[0m] [0m	/home/ashida/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.4.jar:/home/ashida/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar:/home/ashida/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar[0m
+[0m[[0mdebug[0m] [0m	/home/ashida/git/LogPhase/src/main/scala/com/shin/LogPhase.scala[0m
+[0m[[31merror[0m] [0m/home/ashida/git/LogPhase/src/main/scala/com/shin/LogPhase.scala:51: Can't unquote StringContext, consider providing an implicit instance of Liftable[StringContext][0m
+[0m[[31merror[0m] [0m    val logIn = cq"""logger.debug($logI)"""[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/ashida/git/LogPhase/src/main/scala/com/shin/LogPhase.scala:52: Can't unquote StringContext, consider providing an implicit instance of Liftable[StringContext][0m
+[0m[[31merror[0m] [0m    val logOut = cq"""logger.debug($logO)"""[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[0minfo[0m] [0mNo documentation generated with unsuccessful compiler run[0m
+[0m[[31merror[0m] [0mtwo errors found[0m
+[0m[[31merror[0m] [0m(compile:[31mdoc[0m) Scaladoc generation failed[0m

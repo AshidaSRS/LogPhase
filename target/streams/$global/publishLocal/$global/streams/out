@@ -1,51 +1,51 @@
 [0m[[0mdebug[0m] [0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/poms/logphase_2.12.pom already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/poms/logphase_2.12.pom[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/poms/logphase_2.12.pom already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/poms/logphase_2.12.pom[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/poms/logphase_2.12.pom.sha1 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/poms/logphase_2.12.pom.sha1[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/poms/logphase_2.12.pom.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/poms/logphase_2.12.pom.sha1[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/poms/logphase_2.12.pom.md5 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/poms/logphase_2.12.pom.md5[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/poms/logphase_2.12.pom.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/poms/logphase_2.12.pom.md5[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0minfo[0m] [0m	published logphase_2.12 to /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/poms/logphase_2.12.pom[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/jars/logphase_2.12.jar already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/jars/logphase_2.12.jar[0m
+[0m[[0minfo[0m] [0m	published logphase_2.12 to /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/poms/logphase_2.12.pom[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/jars/logphase_2.12.jar already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/jars/logphase_2.12.jar[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/jars/logphase_2.12.jar.sha1 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/jars/logphase_2.12.jar.sha1[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/jars/logphase_2.12.jar.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/jars/logphase_2.12.jar.sha1[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/jars/logphase_2.12.jar.md5 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/jars/logphase_2.12.jar.md5[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/jars/logphase_2.12.jar.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/jars/logphase_2.12.jar.md5[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0minfo[0m] [0m	published logphase_2.12 to /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/jars/logphase_2.12.jar[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar[0m
+[0m[[0minfo[0m] [0m	published logphase_2.12 to /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/jars/logphase_2.12.jar[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.sha1 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.sha1[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.md5 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.md5[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar.md5[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0minfo[0m] [0m	published logphase_2.12 to /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	published logphase_2.12 to /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/srcs/logphase_2.12-sources.jar[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.sha1 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.sha1[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.md5 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.md5[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar.md5[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0minfo[0m] [0m	published logphase_2.12 to /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/ivys/ivy.xml already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/ivys/ivy.xml[0m
+[0m[[0minfo[0m] [0m	published logphase_2.12 to /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/docs/logphase_2.12-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/ivys/ivy.xml already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/ivys/ivy.xml[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/ivys/ivy.xml.sha1 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/ivys/ivy.xml.sha1 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/ivys/ivy.xml.sha1[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0mdebug[0m] [0m/Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/ivys/ivy.xml.md5 already exists, nothing done[0m
-[0m[[33mwarn[0m] [0mAttempting to overwrite /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/ivys/ivy.xml.md5[0m
+[0m[[0mdebug[0m] [0m/home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/ivys/ivy.xml.md5 already exists, nothing done[0m
+[0m[[33mwarn[0m] [0mAttempting to overwrite /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/ivys/ivy.xml.md5[0m
 [0m[[33mwarn[0m] [0m	This usage is deprecated and will be removed in sbt 1.0.[0m
-[0m[[0minfo[0m] [0m	published ivy to /Users/ashida/.ivy2/local/default/logphase_2.12/0.1.0/ivys/ivy.xml[0m
+[0m[[0minfo[0m] [0m	published ivy to /home/ashida/.ivy2/local/com.shin/logphase_2.12/0.1.0/ivys/ivy.xml[0m
