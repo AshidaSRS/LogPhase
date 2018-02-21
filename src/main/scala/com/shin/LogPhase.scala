@@ -1,7 +1,5 @@
 package com.shin
 
-import java.sql.Timestamp
-
 import scala.tools.nsc.Global
 import scala.tools.nsc.Phase
 import scala.tools.nsc.plugins._
@@ -30,7 +28,7 @@ class LogPhaseComponent(val global: Global)
   class LogTransformer(unit: CompilationUnit)
     extends TypingTransformer(unit) {
     def logEmbedding(rhs: Tree, name: TermName, params: List[ValDef]): global.Block = {
-      val (entryLog, exitLog) = getLogs2(name, params)
+      val (entryLog, exitLog) = getLogs(name, params)
       Block(
         entryLog,
         DefDef(Modifiers(), TermName("runMethod"), List(), List(), TypeTree(), rhs),
