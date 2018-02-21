@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.shin" module="logphase_2.12" revision="0.1.0" status="release" publication="20180220142224">
+	<info organisation="com.shin" module="logphase_2.12" revision="0.1.0" status="release" publication="20180221013619">
 		<description>
 		LogPhase
 		</description>

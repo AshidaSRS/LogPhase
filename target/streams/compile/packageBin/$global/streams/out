@@ -1,17 +1,29 @@
-[0m[[0minfo[0m] [0mPackaging /home/ashida/git/LogPhase/target/scala-2.12/logphase_2.12-0.1.0.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /Users/ashida/Git/LogPhase/target/scala-2.12/logphase_2.12-0.1.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	com/shin[0m
-[0m[[0mdebug[0m] [0m	  /home/ashida/git/LogPhase/target/scala-2.12/classes/com/shin[0m
-[0m[[0mdebug[0m] [0m	scalac-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	  /home/ashida/git/LogPhase/target/scala-2.12/classes/scalac-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	com/shin/CompilerPluginComponent.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ashida/git/LogPhase/target/scala-2.12/classes/com/shin/CompilerPluginComponent.class[0m
-[0m[[0mdebug[0m] [0m	com/shin/LogPhase.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ashida/git/LogPhase/target/scala-2.12/classes/com/shin/LogPhase.class[0m
+[0m[[0mdebug[0m] [0m	com/shin/annotations/spy$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/annotations/spy$.class[0m
+[0m[[0mdebug[0m] [0m	com/shin/annotations/annotation$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/annotations/annotation$.class[0m
 [0m[[0mdebug[0m] [0m	com/shin/CompilerPluginComponent$$anon$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ashida/git/LogPhase/target/scala-2.12/classes/com/shin/CompilerPluginComponent$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/CompilerPluginComponent$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	com/shin/annotations/spy.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/annotations/spy.class[0m
+[0m[[0mdebug[0m] [0m	com/shin/CompilerPluginComponent$MyTypingTransformer$$typecreator1$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/CompilerPluginComponent$MyTypingTransformer$$typecreator1$1.class[0m
 [0m[[0mdebug[0m] [0m	com/shin/CompilerPluginComponent$MyTypingTransformer.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ashida/git/LogPhase/target/scala-2.12/classes/com/shin/CompilerPluginComponent$MyTypingTransformer.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/CompilerPluginComponent$MyTypingTransformer.class[0m
 [0m[[0mdebug[0m] [0m	com[0m
-[0m[[0mdebug[0m] [0m	  /home/ashida/git/LogPhase/target/scala-2.12/classes/com[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com[0m
+[0m[[0mdebug[0m] [0m	com/shin/annotations/annotation.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/annotations/annotation.class[0m
+[0m[[0mdebug[0m] [0m	scalac-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/scalac-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	com/shin[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin[0m
+[0m[[0mdebug[0m] [0m	com/shin/annotations[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/annotations[0m
+[0m[[0mdebug[0m] [0m	com/shin/CompilerPluginComponent.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/CompilerPluginComponent.class[0m
+[0m[[0mdebug[0m] [0m	com/shin/LogPhase.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/ashida/Git/LogPhase/target/scala-2.12/classes/com/shin/LogPhase.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m
