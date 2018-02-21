@@ -1,16 +1,16 @@
 # com.shin.LogPhase
-Contact:
-Telegram: @Ashida
-email: ashida.shin@gmail.com (subject: [LogPhase])
+Contact:  
+* Telegram: @Ashida  
+* Email: ashida.shin  __[at]__ gmail __[dot]__ com   
+(subject: [LogPhase])
 
 # HOW
 Add ```@spy``` to a function and will get debug logs
 
 from:
 ```scala
-  @spy def sum(a: Int, b: Int) = a+b
-
-  sum(1,2)
+  @spy 
+  def sum(a: Int, b: Int) = a + b
 ```
 to:
 
@@ -25,8 +25,8 @@ def sum(a: Int, b: Int) = {
 
 ```
 
-#TODO
+# TODO
 
 - Improve all, it's a mess
-- Put options in ``@spy`` annotation
-- Put options like: ``println``, ``logger``, etc.
+- Add options in ``@spy`` annotation
+- Add options like: ``println``, ``logger``, etc.
