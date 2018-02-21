@@ -30,17 +30,17 @@ class LogPhaseComponent(val global: Global)
     def logEmbedding(rhs: Tree, name: TermName, params: List[ValDef]): global.Block = {
       val (entryLog, exitLog) = getLogs(name, params)
       Block(
-        entryLog,
+        _println(entryLog),
         DefDef(Modifiers(), TermName("runMethod"), List(), List(), TypeTree(), rhs),
         q"val _logRun = runMethod",
-        exitLog,
+        _println(exitLog),
         q"_logRun"
       )
     }
 
     override def transform(tree: Tree): global.Tree = tree match {
       case dd: DefDef =>
-        if (shouldSpy(dd.mods)) {
+        if (shouldSpy(dd)) {
           treeCopy.DefDef(dd, dd.mods, dd.name, dd.tparams, dd.vparamss, dd.tpt,
             logEmbedding(dd.rhs, dd.name, dd.vparamss.flatten))
         } else dd
@@ -67,21 +67,14 @@ class LogPhaseComponent(val global: Global)
         q"""
           $timeString + $startStringOQ
        """
-
-      //print
-      val logIn =q"println($logI)"
-      val logOut = q"println($logO)"
-      (logIn, logOut)
+      (logI, logO)
     }
 
-    def shouldSpy(dd: global.Modifiers): Boolean =
-      dd.hasAnnotationNamed(TypeName(typeOf[annotations.spy].typeSymbol.name.toString))
+    def _println(string: global.Tree) = q"println($string)"
+    def _logger(string: global.Tree) = q"logger.debug($string)"
 
-    def intersperse[E](x: E, xs:List[E]): List[E] = (x, xs) match {
-      case (_, Nil)     => Nil
-      case (_, List(x))  => List(x)
-      case (sep, y::ys) => y+:sep+:intersperse(sep, ys)
-    }
+    def shouldSpy(dd: global.DefDef): Boolean =
+      dd.mods.hasAnnotationNamed(TypeName(typeOf[annotations.spy].typeSymbol.name.toString))
 
     def newTransformer(unit: CompilationUnit) = new LogTransformer(unit)
   }
