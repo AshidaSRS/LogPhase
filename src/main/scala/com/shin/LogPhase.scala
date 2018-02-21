@@ -30,7 +30,7 @@ class LogPhaseComponent(val global: Global)
   class LogTransformer(unit: CompilationUnit)
     extends TypingTransformer(unit) {
     def logEmbedding(rhs: Tree, name: TermName, params: List[ValDef]): global.Block = {
-      val (entryLog, exitLog) = getLogs(name, params)
+      val (entryLog, exitLog) = getLogs2(name, params)
       Block(
         entryLog,
         DefDef(Modifiers(), TermName("runMethod"), List(), List(), TypeTree(), rhs),
@@ -50,12 +50,28 @@ class LogPhaseComponent(val global: Global)
     }
 
     def getLogs(name: TermName, params: List[ValDef]): (global.Tree, global.Tree) = {
-      val format = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS")
-      def time = format.format(new Timestamp(System.currentTimeMillis()))
-      val meh = intersperse(q"""print(", ")""", params.map(x => q"""print("%s".format(${x.name.decodedName}))"""))
-      val logI = s"$time - [ENTRY] ${name.decodedName.toString} "
-      val logO = q"${s"$time - [EXIT] ${name.decodedName.toString} - %s"}.format(_logRun)"
-      val logIn = q"""print($logI); ${q"""print("(")""" +: meh :+ q"""println(")")"""}"""
+      //datetime
+      val timeString = q"""(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS")).format(new java.sql.Timestamp(System.currentTimeMillis()))"""
+
+      //firstlog
+      val startStringIQ = q"""${s" - [ENTRY] ${name.decodedName.toString}"}"""
+      val paramsListIQ = q"""${params.map(x => x.name.decodedName)}.map(_.toString).mkString(", ")"""
+
+      //secondlog
+      val startStringOQ = q"${s" - [EXIT] ${name.decodedName.toString} - %s"}.format(_logRun)"
+
+      //join
+      val logI =
+        q"""
+          $timeString + ..$startStringIQ + "(" + ..$paramsListIQ + ")"
+        """
+      val logO =
+        q"""
+          $timeString + $startStringOQ
+       """
+
+      //print
+      val logIn =q"println($logI)"
       val logOut = q"println($logO)"
       (logIn, logOut)
     }
