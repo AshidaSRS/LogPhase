@@ -16,10 +16,10 @@ to:
 
 ```scala 
 def sum(a: Int, b: Int) = {
-  println(s"[ENTRY] sum - $a $b");
+  println(s" $date - [ENTRY] sum - ($a, $b)");
   def runMethod = a + (b);
   val _logRun = runMethod;
-  println(s"[EXIT] sum - $_logRun");
+  println(s"$date - [EXIT] sum - $_logRun");
   _logRun
 }
 
